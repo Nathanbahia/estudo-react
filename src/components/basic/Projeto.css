@@ -1,0 +1,38 @@
+.projeto {
+    min-width: 300px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.titulo-projeto {
+    padding: 5px;
+    text-align: center;
+}
+
+.imagem-projeto {
+    text-align: center;
+}
+
+.imagem-projeto img {
+    max-width: 100%;
+}
+
+.desc-projeto {
+    padding: 10px;
+    text-align: justify;
+}
+
+.footer-projeto {
+    width: 70%;
+    margin: auto;
+    padding: 10px 0 ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-projeto img {    
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
