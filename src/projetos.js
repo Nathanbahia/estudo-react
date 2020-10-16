@@ -1,5 +1,11 @@
-export default function () {
-    return [
+export default [        
+        {
+            "titulo": "Gestão de Frotas",
+            "texto": "Freelancer - Controle de entrada e saída dos veículos da manutenção de uma empresa de energia elétrica do nordeste do Brasil.",
+            "imagem": "https://github.com/Nathanbahia/estudo-react/blob/master/src/imagens/controle-de-frotas.png?raw=true",
+            "link": "",
+            "github": "",
+        },
         {
             "titulo": "Foto Ponto",
             "texto": "Freelancer - Sistema de registro de ponto com foto e localização geográfica. Uso de arquitetura PWA para construção do aplicativo e Django para o Backend.",
@@ -70,5 +76,4 @@ export default function () {
             "link": "https://nathan-portfolio-006.netlify.app",
             "github": "https://github.com/Nathanbahia/ImersaoGameDevAlura"
         },     
-    ]
-}
+]

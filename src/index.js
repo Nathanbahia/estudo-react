@@ -8,9 +8,9 @@ import Banner from './components/basic/Banner'
 import Projeto from './components/basic/Projeto'
 import Footer from './components/basic/Footer'
 
-import proj from './projetos'
+import projetos from './projetos'
 
-const projetos = proj();
+
 const projetoComponent = projetos.map( (projeto, i) => {
     return (
         <Projeto key= {i}
@@ -34,6 +34,7 @@ ReactDOM.render(
         </div>
 
         <Footer title="Nathan Bahia" text="Obrigado por visitar!"/>
+    
     </>,
     document.querySelector("#root")
 )

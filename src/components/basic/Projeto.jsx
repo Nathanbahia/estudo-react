@@ -11,13 +11,14 @@ export default function (props) {
         desc = `${desc.slice(0, max_len_desc)}...`;
     }
 
+    /* Verificação dos links para GitHub e Site dos projetos*/
     const github =  props.github !== "" ? 
         <div className="github">
             <a href={props.github} target="_blank">
                 <img src="https://github.com/Nathanbahia/estudo-react/blob/master/src/imagens/github.png?raw=true" />
             </a>
         </div> : ""
-
+    
     const site = props.link !== "" ?
         <div className="site">
             <a href={props.link} target="_blank">
