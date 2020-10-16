@@ -73,7 +73,7 @@ export default [
             "titulo": "Games com JS/P5.js",
             "texto": "Game desenvolvido durante a Imersão Game Dev da Alura, transmitida via YouTube.",
             "imagem": "https://github.com/Nathanbahia/estudo-react/blob/master/src/imagens/p5js.png?raw=true",
-            "link": "https://nathan-portfolio-006.netlify.app",
+            "link": "https://006-portfolio-nathanbahia.netlify.app/",
             "github": "https://github.com/Nathanbahia/ImersaoGameDevAlura"
         },     
 ]
