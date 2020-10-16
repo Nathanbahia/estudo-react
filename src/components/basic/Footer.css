@@ -12,3 +12,17 @@
     line-height: 32px;
     font-size: 14px;
 }
+
+.LI-profile-badge {
+    border: none !important;
+    margin: auto;
+    min-width: 300px !important;
+}
+
+.LI-badge-container {
+    display: none;
+}
+
+.footer {
+    background: #303336;
+}

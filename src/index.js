@@ -18,6 +18,7 @@ const projetoComponent = projetos.map( (projeto, i) => {
             texto={projeto.texto} 
             imagem={projeto.imagem} 
             link={projeto.link}
+            github={projeto.github}
         />
     )
 })  
@@ -31,7 +32,7 @@ ReactDOM.render(
         <div className="lista-projetos">          
             { projetoComponent }
         </div>
-        
+
         <Footer title="Nathan Bahia" text="Obrigado por visitar!"/>
     </>,
     document.querySelector("#root")
